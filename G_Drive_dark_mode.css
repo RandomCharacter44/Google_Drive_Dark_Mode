@@ -1,14 +1,31 @@
+/* ==UserStyle==
+@name           google.com - 2.5.2023, 15:21:34
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("google.com") {
+    /* Quelltext hier eingeben... */
+}
+
 /*"My Files" Tab (see left side menu)*/
 
 /*changing "var" colors*/
 
 :root {
-    --dt-surface1: #272727;
+    --white-color: #fff;
+    --black: #000;
+    --silver: #b3b3b3;
+    --night: #121212;
+    --eerie-black: #181818;
+    --onyx: #404040;
+    --raisin-black: #282828;
 }
 
 .vhoiae.KkxPLb {
-    background-color: var(--dt-surface1);
-    --dt-surface1: #272727;
+    --dt-surface1: var(--raisin-black);
 }
 
 .o-Yc-o-T {
@@ -73,7 +90,7 @@
 }
 
 .Yb-Il-d-c-j {
-    background-color:var(--dt-primary-container);
+    background-color:var(--silver);
 }
 
 .aabwZd.fYenT .WYuW0e, .aabwZd.fYenT .WYuW0e .M3pype {
@@ -85,11 +102,11 @@
 }
 
 .gb_Fa.gb_Uc .gb_rd.gb_ke:not(.gb_le) .gb_me, .gb_Fa.gb_Uc .gb_rd.gb_ne.gb_oe:not(.gb_le) .gb_me, .gb_Fa.gb_wd .gb_rd:not(.gb_ke):not(.gb_le) .gb_me {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .gb_Fa:not(.gb_Ha) .gb_sd {
-  background-color: #272727 !important;
+  background-color: var(--raisin-black) !important;
 }
 
 #gb [src="//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"] + [class] {
@@ -97,65 +114,65 @@
 }
 
 .ZHllM {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .a-da-Mf-B-lc {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .a-l-Ba .a-s-Ba-ic .a-s-Ba-ic, .a-l-Ba .a-s-Ba-dj .a-s-Ba-dj {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .lVcy9.s55KNe {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .Y9nbBe .LMkq1b, .pdAMZe {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .g3Fmkb {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .Kk7lMc-Ku9FSb-Yb-Il {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .a-l-Ba .a-s-Ba-dj {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .mXlnof .a-s-Ba-Ak {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .RIln1c {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .YkfxEe {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .ALpC8b {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .S630me {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .PolqHc {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 /*"Computer" Tab (see left side menu)*/
 
 .gb_Fa.gb_Uc .gb_rd.gb_ke:not(.gb_le) .gb_me, .gb_Fa.gb_Uc .gb_rd.gb_ne.gb_oe:not(.gb_le) .gb_me, .gb_Fa.gb_wd .gb_rd:not(.gb_ke):not(.gb_le) .gb_me {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 #gb [src="//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"] + [class] {
@@ -163,11 +180,11 @@
 }
 
 .ZHllM {
-    background-color: #272727;
+    background-color: var(--raisin-black);
 }
 
 .a-da-Mf-B {
-    background-color: #272727 !important;
+    background-color: var(--raisin-black) !important;
 }
 
 /*image in Computer/PC tab*/
@@ -197,9 +214,46 @@
 }
 
 .TvarF {
-    color: #fff;
+    color: var(--white-color);
 }
 
 .s55KNe .Tguc8d {
     color: var(--dt-surface);
+}
+
+/*"Books" main font color under my files*/
+.Wa-ka-oa-qc-V {
+    color: var(--white-color);
+}
+
+.Wa-ka-oa-qc-r {
+    color: var(--silver);
+}
+
+/*"Books" under "My Files" icon*/
+
+.Wa-sa-c-ab-o-wDYxhc {
+    border-radius: 15px;
+}
+
+.Rj2Mlf:not(:disabled) {
+    color:var(--silver);
+}
+
+/*"Settings" font*/
+
+.gb_ad.gb_bd {
+    color:var(--silver);
+}
+
+.vhoiae .wThJje, .X9XeLb .wThJje, .cWKK1c .wThJje, .aJfoSc .wThJje, .TOb6Ze .wThJje {
+    color: var(--silver);
+}
+
+.a-U-ye-ha > .a-U-J {
+    background-color: var(--silver);
+}
+
+#gb#gb a.gb_f {
+    color:var(--white-color);
 }
