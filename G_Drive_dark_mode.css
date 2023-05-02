@@ -1,0 +1,205 @@
+/*"My Files" Tab (see left side menu)*/
+
+/*changing "var" colors*/
+
+:root {
+    --dt-surface1: #272727;
+}
+
+.vhoiae.KkxPLb {
+    background-color: var(--dt-surface1);
+    --dt-surface1: #272727;
+}
+
+.o-Yc-o-T {
+    color: var(--dt-outline-variant);
+}
+
+.yYWAMb {
+    background-color: var(--dt-surface1);
+}
+
+/*font color when files are selected*/
+
+.WpZLE {
+    color: var(--dt-surface);
+}
+
+/*minus icon font color when selecting elements*/
+
+.p9NqC.qoCZef:not(:disabled) {
+    color: var(--dt-surface);
+}
+
+/*changing "var" colors*/
+
+/*side menu colors*/
+.a-U-J-x {
+    color: var(--dt-surface);
+}
+
+/*side menu unselected icon color*/
+.a-da-U .c-qd {
+    color:var(--dt-background);
+}
+
+/*"Buy" button (see under side menu)*/
+.Rj2Mlf:not(:disabled) {
+      color: var(--dt-background);
+}
+
+.h-R-w-d.a-l-S-Pc-w-d {
+    color: var(--dt-background);
+}
+
+.a-d-c svg {
+    color: var(--dt-background);
+}
+
+.ZqJeHd.a-c-d.a-r-d {
+    color: var(--dt-background);
+}
+
+.ub-ml-Pr .USrqEe-ml-Pr-gi .cr-hTVF2c-r {
+    color: var(--dt-background);
+}
+
+.KZ6CTb.a-c-d svg {
+    color: var(--dt-background);
+}
+
+#gb .wo35tf, #gb .a-s-fa-Ha-pa, #gbwa [viewBox][focusable="false"] {
+    color:var(--dt-background);
+}
+
+.Yb-Il-d-c-j {
+    background-color:var(--dt-primary-container);
+}
+
+.aabwZd.fYenT .WYuW0e, .aabwZd.fYenT .WYuW0e .M3pype {
+    background-color: var(--dt-surface);
+}
+
+.B-Nd-ZB7aWe-UvFRu {
+    background-color: var(--dt-background);
+}
+
+.gb_Fa.gb_Uc .gb_rd.gb_ke:not(.gb_le) .gb_me, .gb_Fa.gb_Uc .gb_rd.gb_ne.gb_oe:not(.gb_le) .gb_me, .gb_Fa.gb_wd .gb_rd:not(.gb_ke):not(.gb_le) .gb_me {
+    background-color: #272727;
+}
+
+.gb_Fa:not(.gb_Ha) .gb_sd {
+  background-color: #272727 !important;
+}
+
+#gb [src="//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"] + [class] {
+  color: var(--dt-surface);
+}
+
+.ZHllM {
+    background-color: #272727;
+}
+
+.a-da-Mf-B-lc {
+    background-color: #272727;
+}
+
+.a-l-Ba .a-s-Ba-ic .a-s-Ba-ic, .a-l-Ba .a-s-Ba-dj .a-s-Ba-dj {
+    background-color: #272727;
+}
+
+.lVcy9.s55KNe {
+    background-color: #272727;
+}
+
+.Y9nbBe .LMkq1b, .pdAMZe {
+    background-color: #272727;
+}
+
+.g3Fmkb {
+    background-color: #272727;
+}
+
+.Kk7lMc-Ku9FSb-Yb-Il {
+    background-color: #272727;
+}
+
+.a-l-Ba .a-s-Ba-dj {
+    background-color: #272727;
+}
+
+.mXlnof .a-s-Ba-Ak {
+    background-color: #272727;
+}
+
+.RIln1c {
+    background-color: #272727;
+}
+
+.YkfxEe {
+    background-color: #272727;
+}
+
+.ALpC8b {
+    background-color: #272727;
+}
+
+.S630me {
+    background-color: #272727;
+}
+
+.PolqHc {
+    background-color: #272727;
+}
+
+/*"Computer" Tab (see left side menu)*/
+
+.gb_Fa.gb_Uc .gb_rd.gb_ke:not(.gb_le) .gb_me, .gb_Fa.gb_Uc .gb_rd.gb_ne.gb_oe:not(.gb_le) .gb_me, .gb_Fa.gb_wd .gb_rd:not(.gb_ke):not(.gb_le) .gb_me {
+    background-color: #272727;
+}
+
+#gb [src="//ssl.gstatic.com/images/branding/product/1x/drive_2020q4_48dp.png"] + [class] {
+    color:var(--dt-background);
+}
+
+.ZHllM {
+    background-color: #272727;
+}
+
+.a-da-Mf-B {
+    background-color: #272727 !important;
+}
+
+/*image in Computer/PC tab*/
+
+.ab-S-c-j img {
+    border-radius: 30px;
+}
+
+/*font under img in PC tab*/
+
+.ab-S-V {
+    color: var(--dt-surface);
+}
+
+.ab-S-Wg {
+    color: var(--dt-outline-variant);
+}
+
+.QsFsvc {
+    color: var(--dt-surface);
+}
+
+/*image in Marked tab*/
+
+.ab-S-c-Ka-j img {
+    border-radius: 30px;
+}
+
+.TvarF {
+    color: #fff;
+}
+
+.s55KNe .Tguc8d {
+    color: var(--dt-surface);
+}
